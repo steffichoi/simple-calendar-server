@@ -1,3 +1,5 @@
+# simple-calendar-server
+
 A simple calendar server that supports simple operations.
 After compiling calserver and calendar, the service is accessible through
 the commandline through a few commands.
@@ -46,18 +48,18 @@ This simple server was built in C, utilizing basic structs and simple methods
 to store and retrieve data stored in the structs.
 
 ##### STEPS TO RUN THE PROGRAM
-call the makefile
+- call the makefile
 
-ensure that all essential programs have been built, specifically:
+- ensure that all essential programs have been built, specifically:
 
 calserver and calendar
 
-open two terminals
+- open two terminals
 
-in one, start the server by running
+- in one, start the server by running
 >./calserver 
 
-in the other, start the calendar service by running
+- in the other, start the calendar service by running
 >./calendar
 
 now that both programs are running, you can use the commands listed above
