@@ -9,9 +9,11 @@ These commands include:
 -adds a new calendar to the list of calendars
 
 >list_calendars
+
 -outputs a list of calendars
 
 >add_user user-name
+
 -adds a new user to the list of users
 
 >list_users
@@ -39,15 +41,19 @@ in the format
 sorted by time
 
 
+
 This simple server was built in C, utilizing basic structs and simple methods
 to store and retrieve data stored in the structs.
 
-#####STEPS TO RUN THE PROGRAM
+##### STEPS TO RUN THE PROGRAM
 call the makefile
+
 ensure that all essential programs have been built, specifically:
+
 calserver and calendar
 
 open two terminals
+
 in one, start the server by running
 >./calserver 
 
