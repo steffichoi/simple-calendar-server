@@ -4,31 +4,30 @@ the commandline through a few commands.
 
 These commands include:
 
-add_calendar calendar-name
+>add_calendar calendar-name
 -adds a new calendar to the list of calendars
 
-list_calendars
+>list_calendars
 -outputs a list of calendars
 
-add_user user-name
+>add_user user-name
 -adds a new user to the list of users
 
-list_users
+>list_users
 -outputs a list of users
 
-subscribe user-name calendar-name
+>subscribe user-name calendar-name
 -subscribes the user(use-name) to the calendar(calendar-name)
 -will give an error if the user is already suscribed to the calendar
 
-add_event calendar-name event-name time
+>add_event calendar-name event-name time
 -adds an event(event-name) to the calendar(calendar-name) at the specified
 time
 
-list_events calendar-name
+>list_events calendar-name event-name
 -outputs the list of events associated with the calendar(calendar-name)
 in the format  
-
-event-name:Day Month Date hh:mm:ss year
+		event-name:Day Month Date hh:mm:ss year
 sorted by time
 
 
@@ -42,8 +41,8 @@ calserver and calendar
 
 open two terminals
 in one, start the server by running
-./calserver 
+>./calserver 
 in the other, start the calendar service by running
-./calendar
+>./calendar
 
 now that both programs are running, you can use the commands listed above
